@@ -5,6 +5,9 @@ const estatistica = () => {
     let contador = 0;
     while(num != -1){
         num = parseInt(prompt('Digite um número inteiro\nDigite -1 para encerrar'));
+        if(num == -1){
+            break;
+        }
         soma += num;
         contador += 1;
     }
