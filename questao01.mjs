@@ -1,7 +1,7 @@
 // declaração de variáveis
 let num = 2.5;
 let intNum = parseInt(num);
-let anterior = intNum - 1;
+let anterior = intNum;
 let sucessor = intNum + 1;
 
 // resultado
